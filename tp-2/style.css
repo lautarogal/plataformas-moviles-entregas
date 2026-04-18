@@ -1,1 +1,53 @@
-
+body{
+    background-color: #222;
+    color:#ee6;
+    font-family: sans-serif;
+}
+a{
+    color:rgb(218, 97, 167);
+}
+a:visited{
+    color:gray;
+}
+h1{
+    text-align: center;
+    color: white;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+h1:hover{
+    background-color: #2c3e50; /* Cambia a azul oscuro */
+    color:#66f;
+    cursor: pointer;
+}
+h3{
+    color:#eee;
+}
+strong{
+    text-decoration:underline;
+}
+.the-force{
+    background-color: #444;
+      font-weight: bold;
+}
+.light-side{
+    color:#66f;
+}
+.dark-side{
+    color:#f33;
+}
+.og-trilogy{
+    list-style-type: circle;
+}
+#dos{
+   padding-left: 100px;
+}
+#tres{
+    margin-top: 100px;
+}
+h1, h2, h3{
+    text-transform: uppercase;
+}
+#color{
+    color:#efe;
+}
