@@ -26,9 +26,12 @@
 		#primer-parrafo em{
 			font-size: 1.3rem;
 			background-color: #eec;
-			color:#CEE;
 			COLOR:#933;
 		}
+
+#primer-parrafo em{
+	background-color:#CEE;
+}
 
 		p.importante em {
 			font-weight: bold;
