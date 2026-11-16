@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicación del Clima</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div id="estadoConexion" class="estado-conexion comprobando">
+            Comprobando conexión con la API...
+        </div>
+
+        <h1>Consulta del Clima</h1>
+        <p>Ingresá una ciudad para conocer su clima actual.</p>
+
+        <input type="text" id="ciudad" placeholder="Ejemplo: Buenos Aires">
+        <button onclick="buscarClima()">Buscar clima</button>
+
+        <div id="resultado">
+            <p>Los resultados aparecerán aquí.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
